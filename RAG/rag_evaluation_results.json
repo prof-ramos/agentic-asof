@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "retrieval_precision": 0.31666666666666665,
+    "retrieval_recall": 0.6,
+    "context_relevance": 1.0,
+    "faithfulness": 0.0,
+    "answer_relevance": 0.0
+  },
+  "test_cases": [
+    {
+      "query": "direitos dos oficiais de chancelaria",
+      "expected_laws": [
+        "lei-8829-1993"
+      ],
+      "description": "Busca por direitos da carreira"
+    },
+    {
+      "query": "como funciona o ingresso na carreira",
+      "expected_laws": [
+        "lei-8829-1993",
+        "decreto-1565-1995"
+      ],
+      "description": "Processo de ingresso"
+    },
+    {
+      "query": "progressao e promocao na carreira",
+      "expected_laws": [
+        "lei-8829-1993"
+      ],
+      "description": "Desenvolvimento na carreira"
+    },
+    {
+      "query": "regime juridico dos servidores",
+      "expected_laws": [
+        "lei-8112-1990"
+      ],
+      "description": "Lei geral dos servidores"
+    },
+    {
+      "query": "vencimentos e remuneracao",
+      "expected_laws": [
+        "lei-8829-1993",
+        "decreto-1565-1995"
+      ],
+      "description": "Salarios e remuneracao"
+    }
+  ]
+}

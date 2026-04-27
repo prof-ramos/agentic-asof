@@ -1,0 +1,6 @@
+supabase
+langchain-openai
+langchain-text-splitters
+langchain-core
+python-dotenv
+openai
